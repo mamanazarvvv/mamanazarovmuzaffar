@@ -1,0 +1,27 @@
+@font-face {
+    font-family: main-font;
+    src: url(../font/Montserrat-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: main-font;
+}
+body{
+    background: linear-gradient(130.68deg, #141414 0%, #141414 100.52%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.case{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.main-sec{
+    background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+}
+@media screen and (max-width:895px){
+    .case{
+        max-width: 800px;
+    }
+}
